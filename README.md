@@ -1,1 +1,0 @@
-# OpenGADL-Model
