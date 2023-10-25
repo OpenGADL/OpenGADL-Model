@@ -15,7 +15,7 @@
 
 1. 打开OpenGADL Model软件，新建一个项目，命名为“ResNetCifar10”；选择任务类型为“图像分类”，并选择项目保存路径；
 
-   ![图1](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251446564.png)
+   ![图1](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251446564.png)
 
 2. 切换到【模型设计】界面，搭建ResNet18模型：
 
@@ -27,9 +27,9 @@
 
    c. 根据ResNet18模型的参数对页面上的元件参数进行配置：双击元件，在页面右侧弹出参数配置界面。
 
-   ![图2_1](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251446798.png)
+   ![图2_1](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251446798.png)
 
-   ![图2_2](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251446322.png)
+   ![图2_2](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251446322.png)
 
 3. 配置完所有参数后，点击“模型校验”按钮，校验通过后，在模型保存文件夹下生成设计模型对应的代码；
 
@@ -51,7 +51,7 @@
 
    h. 训练结束后，在当前项目文件夹**/project/train**得到一个单次训练的文件。
 
-   ![图3](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251447145.png)
+   ![图3](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251447145.png)
 
 
 
