@@ -39,15 +39,15 @@
 
    c. 根据LeNet模型的参数对页面上的元件参数进行配置：双击元件，在页面右侧弹出参数配置界面。
 
-   ![图3](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251444117.png)
+   ![图3](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251444117.png)
 
    **注意：**输入层Input配置输入尺寸用于模型校验，这里LeNet配置的输入尺寸为（1，28，28），对应MNIST数据集的数据尺寸
 
 3. 配置完所有参数后，点击“模型校验”按钮，校验通过后，在模型保存文件夹下生成设计模型对应的代码；
 
-   ![图4_1](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251444874.png)
+   ![图4_1](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251444874.png)
 
-   ![图4_2](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251444317.png)
+   ![图4_2](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251444317.png)
 
 4. 切换到【模型训练】界面，进行训练参数的配置：
 
@@ -67,8 +67,8 @@
 
    训练结束后，在当前项目文件夹**/project/train**得到一个单次训练的文件；
 
-   ![图5](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251445238.png)
-   <img src="https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251445390.png" style="zoom:50%;" />
+   ![图5](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251445238.png)
+   <img src="https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251445390.png" style="zoom:50%;" />
    
    
 
