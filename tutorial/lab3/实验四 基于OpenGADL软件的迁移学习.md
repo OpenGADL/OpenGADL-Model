@@ -20,11 +20,11 @@
 
 2. 整理数据集：将训练集train，验证集val以及测试集test按照OpenGADL数据集标准格式进行整理；【**数据集的格式见附录**】
 
-   ![图1](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251449695.png)
+   ![图1](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251449695.png)
 
 3. 打开OpenGADL Model软件，新建一个项目，命名为Resnet18DogCat；选择任务类型为“图像分类”，并且选择项目保存路径
 
-   ![图2](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251449350.png)
+   ![图2](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251449350.png)
 
 4. 切换界面到【模型训练】，进行配置：
 
@@ -40,17 +40,17 @@
 
    f. 训练参数设置界面：配置迭代轮次数为20，批量大小（Batch Size）为64（取决于GPU显存大小）；图像均值和方差全设为0交由软件根据数据集自动计算；优化器Optimizer选用Adam算法（参数默认）；
 
-   ![图3](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251449718.png)
+   ![图3](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251449718.png)
 
    g. 配置完成后，点击“训练”按钮，开始训练；
 
    h. 训练结束后，在当前项目文件夹/project/train得到一个单次训练的文件；
 
-   ![图4_1](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251450561.png)
+   ![图4_1](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251450561.png)
 
-   ![图4_2](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251450788.png)
+   ![图4_2](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251450788.png)
 
-   ![图4_3](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251450910.png)
+   ![图4_3](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251450910.png)
 
 5. 切换界面到【评估部署】，进行配置：
 
@@ -64,15 +64,15 @@
 
    e. 测试参数配置界面：输入尺寸，图像均值，图像方差应该与训练界面的参数一致，才能得到正确的测试结果；【软件在训练后默认自动将测试界面的这几个参数与训练界面的这几个参数进行同步】；
 
-   ![图5](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251451345.png)
+   ![图5](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251451345.png)
 
    f. 配置完成，点击“测试”，开始测试；
 
    g. 测试结束后，将以表格形式显示测试结果，并在下方显示数据集的测试报告。
 
-   ![图6_1](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251451495.png)
+   ![图6_1](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251451495.png)
 
-   ![图6_2](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251451301.png)
+   ![图6_2](https://raw.githubusercontent.com/OpenGADL/OpenGADL-Model/main/picture/202310251451301.png)
 
    
 
