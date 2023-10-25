@@ -14,13 +14,13 @@
 
 1. 打开OpenGADL Model软件，新建一个项目，命名为LeNetProj；选择任务类型为“图像分类”，并选择项目保存路径；
 
-   ![图1](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251443445.png)
+   ![图1](https://raw.githubusercontent.com/OpenGADL/OpenGADL/main/picture/202310251443445.png)
 
 2. 切换到【模型设计】界面，搭建LeNet模型:
 
    a.【增加可读性，重命名页面名，非必要】新建项目默认添加一个设计页面到设计面板，双击设计页面名，弹出一个命名窗口，重命名设计页面名为LeNet；也可以关闭默认设计页面，新建一个模型设计页面命名为LeNet；
 
-   ![图2](https://raw.githubusercontent.com/MagnetoXxz/My_pictures/main/Test_picture/202310251443337.png)
+   ![图2](https://raw.githubusercontent.com/OpenGADL/OpenGADL/main/picture/202310251443337.png)
 
    b. 如表1所示，根据LeNet结构，从左侧元件树中选择相应的元件添加到设计页面上;
 
